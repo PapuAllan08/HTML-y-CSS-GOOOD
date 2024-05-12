@@ -1,0 +1,29 @@
+.box {
+    width: 100%;
+    height: 100px;
+    margin:20px;
+    margin:0;
+    background-color: rgba(102, 255, 171, 0.323);
+    background-image: url(https://cdn.wallpapersafari.com/23/52/GbYF0l.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 100px;
+}
+body {
+  background-color: #48e;
+  margin: 0;
+  font-family: sans-serif;
+  color:white;
+
+}
+p {
+    color:#00f;
+}
+h1 {
+    color:red;
+}
+div {
+    color:white;
+}

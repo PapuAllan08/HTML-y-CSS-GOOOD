@@ -1,0 +1,27 @@
+.box {
+  padding: 20px 50px;
+  background-color: hsl(210, 40%, 85%);
+  margin: 20px;
+  margin-left: 100px;
+  text-align: center;
+  color: hsl(210, 40%, 25%);
+  border-top: 2px solid hsl(357, 87%, 48%);
+  font-family: sans-serif;
+  font-weight: bold;
+}
+body {
+  color: white;
+  background-color: black;
+}
+a:hover {
+  color: rgb(255, 0, 0);
+}
+a:link {
+  text-decoration: none;
+  border-top: 2px solid #f00;
+  border-bottom: 2px solid #f00;
+}
+.importante {
+    color:#f00;
+    background-color:#0fa;
+}

@@ -1,0 +1,112 @@
+div {
+    background-color: red;
+    width: 150px;
+    margin:auto;
+    text-align:center;
+}
+div {
+    border-width:  6px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 10px;
+}
+.radio {
+    background: blue;
+    text-align:center;
+    margin-left:0;
+    width: 150px;
+    border-width: 10px;
+    border-color:red;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top:10%;
+    padding:30px;
+}
+.titu {
+    background-color: violet;
+    text-align:auto;
+    margin-top:0;
+    color:black;
+}
+body {
+    color:white;
+    background-color:black;
+}
+.prueba {
+    margin-left:0;
+    margin-top:10px;
+    background-color:blue;
+    text-align:center;
+    width:150px;
+    border-width: 10px;
+    border-color:red;
+    border-style:solid;
+    border-radius: 10px;
+    margin-top: 10%;
+    padding:30px;
+}
+.segundo {
+    background: violet;
+    text-align:auto;
+    margin-top:0;
+    color:black;
+}
+.derecha {
+    margin:0;
+    background-color:blue;
+    text-align:center;
+    width:150px;
+    border-width: 10px;
+    border-color:red;
+    border-style:solid;
+    border-radius: 10px;
+    margin-top: 10%;
+    padding:30px;
+}
+h2 {
+    color:black;
+    background-color:violet;
+    text-align:center;
+    margin-top:0;
+}
+.nose {
+    color:black;
+    background-color:aqua;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin:20px 30px 0 30px;
+    padding:10px;
+    border-width:3px;
+    border-color:black;
+    border-style:solid;
+}
+.definicion {
+    color:black;
+    padding:5%;
+    text-align:center;
+    width:50%;;
+    margin-top:30px;
+    font-size: 20px;
+    font-family:arial;
+    font-weight: 600;
+}
+h3 {
+    display: block;
+    color:black;
+    background-color:aqua;
+    text-align: center;
+    text-decoration: underline;
+    margin:20px 20% 0 20%;
+    padding:5px;
+    border-radius:50%;
+}
+input {
+    margin-top:5px;
+    padding: 6px 9px;
+    border:none;
+    border-bottom: 3px solid greenyellow;
+    background-color:transparent;
+    color:greenyellow;
+}

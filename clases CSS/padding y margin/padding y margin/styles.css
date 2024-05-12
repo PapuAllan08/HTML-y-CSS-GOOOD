@@ -1,0 +1,46 @@
+body {
+  background-color: #e2e2e2;
+}
+.formulario {
+  background: red;
+  padding: 30px;
+}
+.formulario_input {
+  padding: 6px 10px;
+  width: 90%;
+  background: black;
+  color: red;
+  margin:10px;
+}
+.formulario_submit {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: red;
+  width: 50%;
+  color:black;
+}
+.info {
+    color:black;
+    background:blue;
+    margin-bottom:10px;
+    padding:10px;
+}
+.info2 {
+color:black;
+background:blue;
+margin:5px 0 5px 0;
+padding:10px;
+}
+.box {
+    background:red;
+    height: 150px;
+    width: 150px;
+    margin:10px;
+}
+.separacion {
+    color:violet;
+    background:black;
+    text-align:center;
+    padding:10px;
+    margin:0 5px 0 px
+}
