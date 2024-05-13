@@ -1,0 +1,32 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+form {
+    background-color: #ededed;
+    padding:10px 0;
+    max-width: 500px;
+    margin:auto;
+    box-shadow: 0px 0px 35px #0006;
+    margin-top: 50px;
+}
+input, textarea, select {
+    width:100%;
+    box-sizing: border-box;
+    padding:6px 12px;
+    border:none;
+    border-left: 2px solid #999;
+    box-shadow: 0px 0px 15px #0001;
+    border-radius: 4px;
+    color:violet;
+}
+option {
+  background-color: #ededed;
+}
+.form_input {
+    padding: 6 20px;
+}
+fieldset {
+    margin: 20px 0px;
+    border:2px solid #666;
+}
