@@ -43,3 +43,7 @@ label {
 .checkbox {
     width:auto;
 }
+a {
+    color:#69f;
+    text-decoration: none;
+}
