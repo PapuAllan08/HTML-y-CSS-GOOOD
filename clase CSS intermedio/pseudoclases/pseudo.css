@@ -66,8 +66,14 @@ a:visited {
     color:green;
 }
 
-/*invalido*/
-
+/*seleccionando inputs invalido*/
+/*osea tiene que ser valido formato mail, password etc*/
 input:invalid {
     color:red;
 }
+
+/*seleccionando inputs validos*/
+input:valid {
+    color:green;
+}
+

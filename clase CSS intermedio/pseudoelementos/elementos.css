@@ -1,0 +1,45 @@
+div {
+    padding:20px;
+}
+
+/*para entrar a un pseudoelemento se pone :: dos puntos*/
+
+h1::first-letter {
+    color:red;
+    font-size: 3em;
+    letter-spacing: -8px;
+}
+
+div::first-line {
+    color:blue;
+    font-weight: bold;
+}
+
+h1::selection {
+    background-color:red;
+}
+
+div::selection {
+    background-color:blue;
+    color:#fff;
+}
+
+input::placeholder {
+    color:green;
+    background-color:black;
+    padding:20px;
+}
+
+li::marker {
+    color:red;
+}
+/*!estos son los mas importantes*/
+li::before {
+    content: "elemento" ;
+    color:red;
+}
+
+li::after {
+    content:"Despues";
+    color:blue;
+}

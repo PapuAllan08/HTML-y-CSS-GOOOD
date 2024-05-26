@@ -1,0 +1,55 @@
+/*!como No aplicarlo
+.lista {
+    border: 2px solid black;
+}
+
+.ingrediente {
+    color:gray;
+    margin:10px 0;
+    list-style: square;
+}
+.ingrediente-importante {
+    color:blue;
+    margin:10px 0;
+    list-style: square;
+}
+h1::first-letter {
+    color:red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ingrediente-malo {
+    color:red;
+    margin: 10px 0;
+    list-style: square;
+}*/
+
+
+.lista, .lista--nobem {
+    border: 2px solid black;
+}
+
+.lista__item {
+    color:gray;
+    margin:10px 0;
+    list-style: square;
+}
+h1::first-letter {
+    color:red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.item--malo {
+    color:red;
+    margin: 10px 0;
+    list-style: square;
+}
+.item--importante {
+    color:blue;
+}
+.lista--nobem {
+    opacity: 0.100;
+    background-color:#ddd;
+}

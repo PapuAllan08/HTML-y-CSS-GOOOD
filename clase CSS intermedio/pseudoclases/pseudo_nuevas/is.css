@@ -1,0 +1,36 @@
+section .elemento1,
+section .elemento2, 
+section .elemento3 {
+    color:red;
+}
+
+
+section:is(.elemento1, .elemento2, .elemento3){
+    color:blue;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color:green;
+}
+
+body:is(h1, h2, h3, h4, h5, h6){
+    color:yellow;
+}
+/*esto anterior es el is*/
+
+/*has es un pseudo clase que se le pone al elemento padre*/
+/*es para verificar no me acuerdo que has zzz*/
+
+.info {
+    display: flex;
+    text-align: center;
+    color:blue;
+    background-color:#eee;
+    height:300px;
+    width:300px;
+    margin:5px;
+    padding:15px;
+    font-family: sans-serif;
+    font-size:30px;
+}

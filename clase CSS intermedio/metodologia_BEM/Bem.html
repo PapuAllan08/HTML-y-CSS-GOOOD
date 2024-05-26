@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologia BEM</title>
+    <link rel="stylesheet" href="BEM.css">
+</head>
+<body>
+    <!--!block element modifiers BEM
+    <div>
+    -se utiliza: reutilizar codigo, estilo predefinido?
+    -se resuelven errores de especificidad
+    </div>-->
+
+    <!--*no aplicado-->
+    <h1>INGREDIENTES</h1>
+    <ul class="lista--nobem">
+    <li class="ingrediente-malo">sal</li>
+    <li class="ingrediente">papa</li>
+    <li class="ingrediente-importante">Arroz</li>
+    <li class="ingrediente">Frijoles</li>
+    </ul>
+    <!--como aplicarla-->
+
+    <h1>INGREDIENTES</h1>
+    <ul class="lista">
+    <li class="lista__item item--malo">sal</li>
+    <li class="lista__item">papa</li>
+    <li class="lista__item">Arroz</li>
+    <li class="lista__item item--importante">Frijoles</li>
+    </ul>
+</body>
+</html>
