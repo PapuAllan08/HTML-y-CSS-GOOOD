@@ -1,0 +1,33 @@
+body {
+    margin:0;
+}
+
+.zzz {
+    padding:20px;
+    background-color:#999;
+}
+
+/**cambiar de linea a bloque y viceversa*/
+/*los a son etiquetas en linea*/
+/*!al ponerle el display block hace que no se pongan al lado 
+sino que usa todo el ancho disponible*/
+a {
+    background-color:red;
+    color:white;
+    display:block;
+    border: 1px solid black;
+    margin:20px;
+    padding:20px;
+}
+
+div {
+    margin-top:30px;
+    background-color: #999;
+}
+/*!para q todos los p se pongan en la misma linea*/
+p {
+    background-color:black;
+    color:white;
+    display:inline;
+    /*al estar en inline no sirve ni el padding ni el height*/
+}

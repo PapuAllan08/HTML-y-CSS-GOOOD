@@ -1,0 +1,20 @@
+body {
+    margin:0px;
+}
+
+/*!aqui van otra inline-block (es una mezcla de los dos anteriores*/
+.nav {
+    background-color:#48e;
+}
+.nav__list {
+    margin:0;
+}
+.nav__item {
+    display:inline-block;
+    padding:10px;
+    background-color:#48e;
+}
+.nav__link {
+    color:#fff;
+    text-decoration: none;
+}
