@@ -1,0 +1,58 @@
+.important {
+  color: violet;
+  margin: 30px;
+  background-color: red;
+  padding: 5px;
+}
+
+/*selector por atributo*/
+
+/*imagenes*/
+/*para elegir una en especifico se le pone entre [el src]
+tambien se puede elegir una en especifico ya sea jpeg, png etc, 
+al utilizar el $ para especificar que quiere que sea las que terminen con cierta terminacion
+y ^ para que sea al revez osea decirle que el src empieza por = y ese sea el atributo que elija*/
+img [src^="lobo"] {
+  width: 100px;
+}
+img [src$="png"] {
+  width: 15px;
+}
+img {
+  width: 100px;
+}
+
+/*selector por hijo direct0*/
+
+/*1-ul strong, li*/
+/*2-para darle estilo a un hijo directo se utiliza ul > strong 
+basicamente es para agarrar un elemento que este dentro del que le digamos en este caso en el ul
+pero si el strong se encuentra dentro del li no lo  va a agarrar
+ya que no es hijo directo de ul, sino que es nieto ya que esta dentro
+ del hijo (li)*/
+ul > strong {
+  color: red;
+}
+
+/*selector ADYACENTE*/
+/*es como una forma de decirle que le seleccione al estilo que viene luego de otro por ejemplo que 
+elija al elemente que viene luego de h1 utilizando el signo de mas +
+*/
+h1 + p {
+  color: blue;
+}
+
+/*seleccion desendiente*/
+
+
+/*selector de hermanos generales*/
+
+/*es una forma de seleccionar a todos los elementos adyacentes luego del que le digamos*/
+h1 ~ p {
+    color:blue;
+}
+/*basicamente utilizando el ~ le decimos
+que todos los elementos que vengan luego del h1 se pondran los mismos valores*/
+
+/*tambien esta este otro*/
+/*h1, p etc*/

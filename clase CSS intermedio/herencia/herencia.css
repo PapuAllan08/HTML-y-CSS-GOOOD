@@ -1,0 +1,13 @@
+body {
+    color:brown;
+}
+h1 {
+    color:blue;
+    width:50%;
+}
+.info {
+    color:inherit
+}
+div {
+    width:50%;
+}

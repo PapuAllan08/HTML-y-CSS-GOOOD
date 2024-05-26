@@ -1,0 +1,67 @@
+:root {
+    /*este es como a todo desde la raiz*/
+    color:red;
+}
+h1 {
+    color:#48a;
+    font-family: sans-serif;
+    margin: 0px;
+}
+/*cuando pasamos el mouse por encima*/
+h1:hover {
+    color:black;
+    background-color: gray;
+}
+/*cuando se le actica o se la hace click dero izq*/
+h1:active {
+background-color:#ccc;
+color:red;
+}
+
+/*seleccionando el primer li*/
+li:first-child {
+    color:red;
+}
+
+/*seleccionando al segundo li*/
+li:nth-child(2) {
+    color:violet;
+}
+
+/*tambien se le puede poner adentro algo como
+3n y eso es que cada 3 se le va a cambiar lo que 
+se le ponga*/
+li:nth-child(3n) {
+    color:green;
+}
+
+
+/*seleccionando el ultimo li*/
+li:last-child {
+    color:blue;
+}
+
+/*seleccionando el elemento en caso de estar vacio*/
+div:empty {
+    background-color:green;
+    border:2px solid red;
+}
+
+input [type="checkbox"]{
+    margin:50px;
+}
+
+input [type="checkbox"]:checked {
+    margin:0;
+}
+
+/*seleccionando enlaces no visitados*/
+a:link {
+    color:red;
+}
+
+
+/*seleccionando enlaces visitados*/
+a:visited {
+    color:green;
+}

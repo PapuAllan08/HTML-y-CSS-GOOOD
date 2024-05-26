@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selectores avanzados</title>
+    <link rel="stylesheet" href="selectores.css" />
+  </head>
+  <body>
+    <h1>ingredientes</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto
+      autem, quidem labore consequatur modi illo reprehenderit aliquam hic
+      numquam cupiditate debitis alias dolorem. Pariatur impedit mollitia quidem
+      nihil tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Provident eos repellat, iste alias accusamus saepe dignissimos cupiditate
+      cumque mollitia quas repellendus magnam maiores dolor consectetur,
+      voluptatum ipsa reprehenderit tenetur quia.
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, error
+      neque et consequatur numquam est reprehenderit necessitatibus eum quia
+      praesentium quam rem ullam omnis alias similique, quis at eveniet natus.
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas blanditiis
+      aliquam omnis qui quasi ut assumenda, expedita molestiae earum at ipsam
+      fuga. Illo unde necessitatibus in molestiae voluptas, officiis quae!
+    </p>
+    <ul>
+      <li class="ingredientes_faltantes">harina</li>
+      <li>aceite</li>
+      <li>leche <strong>Concentrada</strong></li>
+      <li>sal</li>
+      <li id="Ingrediente_secreto">Levadura</li>
+    </ul>
+    <li>JAJA ingrediente afuera xd</li>
+    <h2 style="color: red">Otro titulo</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur fuga
+      libero explicabo? Quia ipsam est quis alias. Tempore, reiciendis neque
+      porro quo, mollitia libero perferendis sit debitis beatae in laborum.
+    </p>
+
+    <div class="image">
+      <!--imagenes-->
+      <img src="..//lobo.jpeg" alt="" />
+      <img
+        src="https://imagenpng.com/wp-content/uploads/2015/09/Imagenn-PNG.png"
+        alt=""
+      />
+    </div>
+
+    <!--informacion extra-->
+    <h2>esto es extra!!</h2>
+    <div class="important">
+      Los selectores se refieren basicamente a elegir elementos ademas de por
+      clase, id, o en si el nombre del atributo por ahora menciono otras formas
+      que son usando elementos hijos, elementos padres o seleccionar solamente
+      si adentro hay otra cosa, osea podemos seleccionar elementos, formas,
+      estado, hermanos, etc.
+    </div>
+    <div class="important">
+      selector de atributo para imagenes se utiliza dependiendo de como lo
+      queramos poner ya sea utilizando unicamente el atributo img {} img
+      [src="aqui se pone el vinculo o como tengamos guardado la imagen .jpg .png
+      etc"] aunque para ponerlo tenes que poner algo como img [src$=""] lo cual
+      es basicamente para decirle que termina con png etc
+    </div>
+    el signo $ es una forma de decirle que termina con algo osea empieza con un
+    texto diferente pero que si o si termina con lo que le pongamos: png jpeg
+    etc
+    <br /><br />
+    casi lo mismo pero al revez osea para agarrar el atributo src si empieza por
+    lo que le digamos se utiliza el signo ^ ejm: img [src^="aqui como empieza"]
+
+    <br /><br />
+    <div class="seleccion_solo_si_hay_algo_mas">
+      Para seleccionar un elemento dentro de otro elemento se utiliza lo
+      siguiente= ul li {}
+    </div>
+  </body>
+</html>
