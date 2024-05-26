@@ -65,3 +65,9 @@ a:link {
 a:visited {
     color:green;
 }
+
+/*invalido*/
+
+input:invalid {
+    color:red;
+}
