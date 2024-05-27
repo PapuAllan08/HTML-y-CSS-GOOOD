@@ -6,10 +6,10 @@ body {
 /*!aqui van otra inline-block (es una mezcla de los dos anteriores*/
 .nav {
     background-color:#48e;
-    margin:0px;
+    margin:0%;
 }
 .nav__list {
-    margin:0;
+    margin-right:5px;
 }
 .nav__item {
     display:inline-block;

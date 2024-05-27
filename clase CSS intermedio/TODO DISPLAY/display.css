@@ -31,3 +31,6 @@ p {
     display:inline;
     /*al estar en inline no sirve ni el padding ni el height*/
 }
+
+/*por ultimo esta el display none
+no ocupa espacio en la pagina*/

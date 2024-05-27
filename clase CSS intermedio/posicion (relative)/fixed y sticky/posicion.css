@@ -1,0 +1,23 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+.box {
+    height:60px;
+    width:200px;
+    background:red;
+    position:fixed;
+    right:0;
+    background-color:#fff;
+    border: 2px solid #000;
+    border-right: 0;
+    box-shadow: 0 0 40px #000;
+    /*casi igual al absolute*/ /*pero le da igual lo que le digamos*/
+    /*!la diferencia es que la caja siempre se va a quedar ahi*/
+}
+.contenedor {
+    padding:150px;
+    background-color: blue;
+    position:relative;
+}

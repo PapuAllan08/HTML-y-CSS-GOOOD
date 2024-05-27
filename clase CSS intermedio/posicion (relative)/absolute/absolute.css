@@ -1,0 +1,42 @@
+.contenedor {
+    border: 3px solid black;
+    margin:30px 50px;
+    background-color: #fff;
+    position: relative;
+    height:200px;
+}
+
+body {
+    margin:0;
+    font-family: sans-serif;
+    background-color:#ededed;
+}
+
+.box {
+    width: 100px;
+    height:100px;
+    background-color:#ca6;
+    color:#fff;
+    /*es como decirle al navegador que el elemento se tiene que queda
+    en la misma posicion pero uno puede cambiarlo a su antojo*/
+    /*hacia arriba hacia abajo, lados etc.*/
+}
+.box--blue {
+    background-color:#37d;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+/**hace que la caja no ocupe el lugar
+ya que el relative si la utiliza**/
+/*!se posiciona arriba de todos*/
+/*y igualmente se puede mover a todos lados usando lo mismo de top, left, etc*/
+.box--red {
+    background-color:#e53;
+    position:relative;
+    top:20px;
+    /*se mueve desde la zona original de la caja*/
+}
