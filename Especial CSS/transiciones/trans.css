@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+/*
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin:auto;
+    margin-top: 50px;
+    font-size:20px;
+    text-align:center;
+}
+
+.box:hover {
+    background-color: #a22;
+    color:#fff;
+}
+*/
+/*!esa anterior es sin transiciones
+/*!una de las diferencias es que al cambiar es mucho mas brusco osea al
+/*!al poner el mouse por encima se cambia directamente mientras que con las transiciones esto no pasa*/
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  margin-top: 50px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  /*esto*/
+  /**primero se le pone la propiedad que queremos cambiar, 
+  /**luego la duracion de la transicion*/
+  /**al ponerle al final lo del color red hace que este pase de estar completamente rojo a haceer una transicion al valor inicial*/
+  transition-property: background-color, left; /*!propiedad a cambiar*/
+  transition-duration: 1s;    /*!Duracion de la animacion*/
+  /*transition-delay: 2s;    /*!Cuanto tiempo esperar hasta que empieze la animacion*/
+  transition-timing-function: cubic-bezier(.79,.19,.5,.97); /*!es mas o menos para el movimiento de la transicion o algo asi xd*/ /*creo que mejor prueba y error asjfask: ease, ease-in, ease-out*/ 
+  color:red;
+  position:relative;
+  left:0;
+}
+ 
+/*!Forma resumida para todas las propiedades de transition
+/**transition: left 1s cubic-bezier(.79,.19,.5,.97) 2s */ 
+/*!!es como propiedad. duracion, timing y por ultimo el delay*/
+ 
+/**las curvas de vecier:ver la pagina web*/ /*!cubic-bezier(.79,.19,.5,.97) */
+.box:hover {
+color:red;
+}
+
+ body:hover .box {
+   background-color: blue;
+   left:90%;
+ }
+
+
+
+
+
+
+/*!prueba mia jadjs*/
+/*
+.hola {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    transition-property: padding, color, font-size, background-color, margin-top, tex-align, font-family;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    color:blue;
+}
+
+.hola:hover {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size:100px;
+    background-color:red;  
+    margin-top:100px;
+    padding:100px;
+  }
+  */

@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+    background-color: #bbb;
+}
+
+.box {
+    width:240px;
+    height: 50px;
+    margin:auto;
+    margin-top: 50px;
+    background-color: #FFF;
+    border: 1px solid #0006;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: auto-prase;
+    word-wrap: break-word;
+    word-wrap:anywhere;
+    /*white-space: normal, no-wrap(no salto de linea), pre(detecta los saltos como uno lo ponga),pre-wrap;*/
+}
+
+h1 {
+    text-wrap: balance;
+}

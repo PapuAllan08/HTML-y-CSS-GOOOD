@@ -1,0 +1,22 @@
+body {
+    margin:0;
+    font-family:sans-serif;
+    height:100vh;
+    background-color:#ccc
+}
+
+.box{
+    width:220px;
+    height: 220px;
+    background-color:#fff;
+    color:red;
+    position:relative;
+    left:0;
+    border: 2px solid #0009;
+    margin:auto;
+    margin-top:50px;
+    overflow: auto;
+}
+/*!el 0verflow es basicamente para que si el texto dentro del cubo se sobresale
+/*!con overflow se puede ocultar, mostrar, scroll, etc. el auto es para que se ponga o se quita automaticamente
+/*!el clip hace que se corte automaticamente*/

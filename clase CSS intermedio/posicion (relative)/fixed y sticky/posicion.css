@@ -3,6 +3,15 @@ body {
     font-family: sans-serif;
 }
 
+h2 {
+    font-size:18px;
+    margin:0;
+}
+
+p {
+    font-size:14px;
+    margin:0;
+}
 .box {
     height:60px;
     width:200px;
@@ -20,4 +29,21 @@ body {
     padding:150px;
     background-color: blue;
     position:relative;
+}
+/*!desde la parte de el position es la parte para ponerlo sticky*/
+.box-fixed {
+    height:60px;
+    width:200px;
+    background:red;
+    position:sticky;
+    top:100px;
+    z-index: 40px;
+}
+
+.first{
+  top:130px;
+}
+
+.last {
+    top: 170px;
 }
