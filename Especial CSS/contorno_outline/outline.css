@@ -1,0 +1,28 @@
+/**el outline no gasta espacio de la pagina pero si a nivel visual
+/**basicamente es como un border extra*/
+
+body {
+margin:0;
+font-family: sans-serif;
+}
+
+.box {
+    width:150px;
+    background-color: red;
+    margin:auto;
+    margin-top:50px;
+    padding:10px;
+    border:5px solid black;
+    outline-width: 5px;
+    outline-color:blue;
+    outline-style: solid;
+/*!de manera resumida es
+/**outline: 5px solid azul; esta vara esta fuera del borde.
+/*!el outline-offset es la separacion con el borde*/
+    outline-offset: 10px;
+}
+
+.box:hover {
+    border:10px solid black;
+}
+
