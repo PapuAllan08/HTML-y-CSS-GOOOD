@@ -38,6 +38,7 @@ div {
     }
     to {
         width: 100%;
+        background-color:gray;
     }
 }
 
